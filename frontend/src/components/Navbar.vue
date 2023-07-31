@@ -13,12 +13,12 @@
           <a class="nav-links" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-links" href="/tax">My Collection</a>
+          <a class="nav-links" href="/myCollection">My Collection</a>
         </li>
       </ul>
 
       <div class="nav-btn">
-        <a class="nav-btn-link" href="/">Sign In</a>
+        <a class="nav-btn-link" href="/signin">Sign In</a>
       </div>
       <div class="nav-btn">
         <!-- Insert your organization name here dynamically -->
@@ -43,16 +43,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-/* Basic CSS Reset */
-body, h1, h2, h3, p, ul, li {
+
+ h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
 }
 
 
@@ -74,7 +69,7 @@ nav {
   height: 8px;
   z-index: 1;
   width: 100%;
-  //padding: 0 24px;
+  padding: 0 24px;
   max-width: 1100px;
 }
 

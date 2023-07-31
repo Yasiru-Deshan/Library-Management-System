@@ -28,6 +28,7 @@ export default {
             padding: 20px;
             background: #fff;
             border-radius: 5px;
+            margin-top: 80px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         .login-form h2 {
@@ -44,15 +45,18 @@ export default {
             box-sizing: border-box;
         }
         .login-form button {
-            background-color: #4CAF50;
+            background-color: #01bf71;
             color: #fff;
             padding: 14px 20px;
             margin: 8px 0;
             border: none;
             cursor: pointer;
             width: 100%;
+            font-size: 18px;
         }
         .login-form button:hover {
-            background-color: #45a049;
+            background-color: white;
+            color:#01bf71;
+            border: 1px solid #01bf71;
         }
 </style>
