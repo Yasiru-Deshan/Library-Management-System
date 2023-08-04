@@ -45,7 +45,7 @@ export default {
             box-sizing: border-box;
         }
         .login-form button {
-            background-color: #01bf71;
+            background: linear-gradient(to right, #8e2de2, #4a00e0);
             color: #fff;
             padding: 14px 20px;
             margin: 8px 0;

@@ -52,7 +52,7 @@ export default {
 
 
 nav {
-  background: #000;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -147,10 +147,10 @@ nav {
 
 .nav-btn-link {
   border-radius: 50px;
-  background: #01bf71;
+  background: white;
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606;
+  color: linear-gradient(to right, #8e2de2, #4a00e0);;
   font-size: 16px;
   outline: none;
   border: none;
@@ -160,8 +160,8 @@ nav {
 }
 
 .nav-btn-link:hover {
-  background: #fff;
-  color: #010606;
+  background: #8e2de2;
+  color: #fff;
 }
 
 .logout-btn {
